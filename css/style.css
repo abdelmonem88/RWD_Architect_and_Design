@@ -495,10 +495,17 @@ html {
 	padding: 0rem 5rem 10rem 5rem;
 }
 
+
 .testimonial-item {
 	text-align: center;
 	border: 1px solid #ddd;
 	background-color: #fff;
+	padding-bottom: 2rem;
+}
+
+.testimonial-item img {
+	display: block;
+	margin-bottom: 3rem;
 }
 
 .testimonial-item-heading {
@@ -507,14 +514,14 @@ html {
 	line-height: 2.5rem;
 	font-weight: 300;
 	color: #333;
-	margin: 3rem 0;
+	margin-bottom: 1.5rem;
 }
 
 .testimonial-desc {
 	font-family: "Baloo Da 2", serif;
 	font-size: 2rem;
 	color: #000;
-	padding: 1rem .5rem;
+	padding: .5rem;
 }
 
 /* owl-arrow */
@@ -689,6 +696,7 @@ html {
 	opacity: 0;
 	visibility: hidden;
 	transition: all .3s ease-in-out;
+	z-index: 10;
 }
 
 .show {
